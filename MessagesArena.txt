@@ -1,0 +1,21 @@
+Message a transmettre a arena
+
+	variables
+		agvId : identifiant de l'agv
+		destId : identifiant d'un node
+		stationId : identifiant de la station
+
+
+
+	AGV:BATTERY:agvId
+	AGV:DEPL:agvId:destId
+
+	STA:CHARGE:stationId
+	STA:DECHARGE:stationId
+	STA:ACTION:AXIS:stationId
+	STA:ACTION:I_COMP:stationId
+	STA:ACTION:R_COMP:stationId
+	STA:ACTION:L_COMP:stationId
+	STA:ACTION:SCREW_COMP:stationId
+	STA:ACTION:PLATE_LOAD:stationId
+	STA:ACTION:PLATE_UNLOAD:stationId
